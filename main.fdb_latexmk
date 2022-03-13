@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1647188119 "c:/Misc/LeokiEldenRingStats/main.tex" "main.pdf" "main" 1647188121
+["pdflatex"] 1647205863 "c:/Misc/LeokiEldenRingStats/main.tex" "main.pdf" "main" 1647205865
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647121235 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1647122913 23468 df5d1a585e27cf066232f6c613707899 ""
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1647187592 29472 63417f87e99729e752b1e7aeb96410c3 ""
@@ -97,15 +97,15 @@
   "C:/Users/Sergei_Aliakin/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238465940 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Sergei_Aliakin/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623002090 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "c:/Misc/LeokiEldenRingStats/main.tex" 1647122233 940 df2bfa4a2e9d18e5313e8d19bd401d76 ""
-  "dataTables.aux" 1647188120 999 cf13eba7ef6b56cefd5ddef37abbcc7b "pdflatex"
+  "dataTables.aux" 1647205865 999 cf13eba7ef6b56cefd5ddef37abbcc7b "pdflatex"
   "dataTables.tex" 1647188117 114 afbcf4b6ea039a43169f4b75392e01ef ""
-  "introduction.aux" 1647188120 636 a508f78675fdf5569b01e460e6ad585c "pdflatex"
+  "introduction.aux" 1647205865 636 a508f78675fdf5569b01e460e6ad585c "pdflatex"
   "introduction.tex" 1647118988 440 3d4d34aa0fa768267c1f45191988d3fe ""
-  "main.aux" 1647188120 853 8591000d506cb8c4ed83eabc7ef5d862 "pdflatex"
-  "main.out" 1647188120 444 f1639ae659fb395d1e5373a6d6f5724a "pdflatex"
+  "main.aux" 1647205865 853 8591000d506cb8c4ed83eabc7ef5d862 "pdflatex"
+  "main.out" 1647205865 444 f1639ae659fb395d1e5373a6d6f5724a "pdflatex"
   "main.tex" 1647122233 940 df2bfa4a2e9d18e5313e8d19bd401d76 ""
   "streams/stream1.tex" 1647188074 23 2da670266c3e91e4f4f978cd4897c99c ""
-  "streams/stream2.tex" 1647187739 7509 e09a5ab536f0dd66dc4b38141d56c808 ""
+  "streams/stream2.tex" 1647205863 7500 5dbc0325d1471fa2d3f2cec62061d663 ""
   (generated)
   "dataTables.aux"
   "introduction.aux"
