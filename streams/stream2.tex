@@ -1,0 +1,161 @@
+\subsection{Stream \#2}
+
+\newcommand\streamIISiofraEnvDeathCount{4}
+\newcommand\streamIISiofraMobDeathCount{12}
+\newcommand\streamIISiofraAncSpiritDeathCount{1}
+\newcommand\streamIISiofraDeathCount{
+    \the\numexpr
+    \streamIISiofraEnvDeathCount+
+    \streamIISiofraMobDeathCount+
+    \streamIISiofraAncSpiritDeathCount
+    \relax
+}
+
+\newcommand\streamIICaelidMobDeathCount{16}
+\newcommand\streamIICaelidJarDeathCount{3}
+\newcommand\streamIICaelidDeathCount{
+    \the\numexpr
+    \streamIICaelidMobDeathCount+
+    \streamIICaelidJarDeathCount
+    \relax
+}
+
+\newcommand\streamIICastleMorneMobDeaths{4}
+\newcommand\streamIICastleMorneEnvDeaths{2}
+\newcommand\streamIICastleMorneDeaths{
+    \the\numexpr
+    \streamIICastleMorneMobDeaths+
+    \streamIICastleMorneEnvDeaths
+    \relax
+}
+
+\newcommand\streamIILimgraveEnvDeaths{1}
+\newcommand\streamIILimgraveMobDeaths{1}
+\newcommand\streamIILimgraveDeaths{
+    \the\numexpr
+    \streamIILimgraveEnvDeaths+
+    \streamIILimgraveMobDeaths
+    \relax
+}
+
+\newcommand\streamIICatacombsMobDeaths{1}
+\newcommand\streamIICatacombsBossDeaths{2}
+\newcommand\streamIICatacombsDeaths{
+    \the\numexpr
+    \streamIICatacombsMobDeaths+
+    \streamIICatacombsBossDeaths
+    \relax
+}
+
+\newcommand\streamIILiurniaEnvDeaths{2}
+\newcommand\streamIILiurniaAdanDeaths{1}
+\newcommand\streamIILiurniaAvatarDeaths{1}
+\newcommand\streamIILiurniaMobDeaths{4}
+\newcommand\streamIILiurniaDeaths{
+    \the\numexpr
+    \streamIILiurniaEnvDeaths+
+    \streamIILiurniaAdanDeaths+
+    \streamIILiurniaAvatarDeaths+
+    \streamIILiurniaMobDeaths
+    \relax
+}
+
+\newcommand\streamIIDeathCount{
+    \the\numexpr
+    \streamIISiofraDeathCount+
+    \streamIICaelidDeathCount+
+    \streamIICastleMorneDeaths+
+    \streamIILimgraveDeaths+
+    \streamIICatacombsDeaths+
+    \streamIILiurniaDeaths
+    \relax
+}
+
+\begin{table*}[!ht]
+    \centering
+    \begin{tabular}{c|c|c|c|c|C{1.8cm}|} \cline{2-6}
+        & Stream Date & Area & Cause & Count & Timestamp interval \\\cline{2-6}
+        & \multirow{\streamIIDeathCount}{*}{
+            \begin{tabular}{c}
+                \bfseries 28.02.2022 \\
+                ER starts at 02:16:50
+            \end{tabular}
+        } & \multirow{\streamIISiofraDeathCount}{*}{ \rotatebox[origin=c]{90}{ \bfseries Siofra River } } & \multirow{\streamIISiofraEnvDeathCount}{*}{Environment} & \multirow{\streamIISiofraEnvDeathCount}{*}{ \streamIISiofraEnvDeathCount } & 02:44:44\\\cline{6-6}
+        & & & & & 02:33:00\\\cline{6-6}
+        & & & & & 03:51:50\\\cline{6-6}
+        & & & & & 03:53:33\\\cline{4-6}
+        & & & \multirow{\streamIISiofraMobDeathCount}{*}{ Monsters } & \multirow{\streamIISiofraMobDeathCount}{*}{ \streamIISiofraMobDeathCount } & 02:42:30\\\cline{6-6}
+        & & & & & 02:59:15\\\cline{6-6}
+        & & & & & 03:09:05\\\cline{6-6}
+        & & & & & 03:10:40\\\cline{6-6}
+        & & & & & 03:12:45\\\cline{6-6}
+        & & & & & 03:16:35\\\cline{6-6}
+        & & & & & 03:20:30\\\cline{6-6}
+        & & & & & 03:23:48\\\cline{6-6}
+        & & & & & 03:26:22\\\cline{6-6}
+        & & & & & 03:38:10\\\cline{6-6}
+        & & & & & 03:39:10\\\cline{4-6}
+        & & & \multirow{\streamIISiofraAncSpiritDeathCount}{*}{ Ancestor Spirit } & \multirow{\streamIISiofraAncSpiritDeathCount}{*}{ \streamIISiofraAncSpiritDeathCount } & 04:01:10\\\cline{3-6}
+        & & \multirow{\streamIICaelidDeathCount}{*}{ \rotatebox[origin=c]{90}{ \bfseries Caelid } } & \multirow{\streamIICaelidMobDeathCount}{*}{ Monsters } & \multirow{\streamIICaelidMobDeathCount}{*}{ \streamIICaelidMobDeathCount } & 04:35:50\\\cline{6-6}
+        & & & & & 04:37:05\\\cline{6-6}
+        & & & & & 04:38:19\\\cline{6-6}
+        & & & & & 04:42:33\\\cline{6-6}
+        & & & & & 04:44:23\\\cline{6-6}
+        & & & & & 04:45:58\\\cline{6-6}
+        & & & & & 04:48:10\\\cline{6-6}
+        & & & & & 04:50:35\\\cline{6-6}
+        & & & & & 04:53:35\\\cline{6-6}
+        & & & & & 04:58:02\\\cline{6-6}
+        & & & & & 05:02:25\\\cline{6-6}
+        & & & & & 05:08:52\\\cline{6-6}
+        & & & & & 05:12:02\\\cline{6-6}
+        & & & & & 05:34:50\\\cline{6-6}
+        & & & & & 05:36:05\\\cline{6-6}
+        & & & & & 05:42:52\\\cline{4-6}
+        & & & \multirow{\streamIICaelidJarDeathCount}{*}{ 
+            \begin{tabular}{c}
+                Knights of the\\
+                Great Jar
+            \end{tabular}
+         } & \multirow{\streamIICaelidJarDeathCount}{*}{ \streamIICaelidJarDeathCount } & 05:28:00\\\cline{6-6}
+        & & & & & 05:33:33\\\cline{6-6}
+        & & & & & 05:40:32\\\cline{3-6}
+        & & \multirow{\streamIICastleMorneDeaths}{*}{ \rotatebox[origin=c]{90}{ 
+            \begin{tabular}{c}
+                \bfseries Castle \\
+                \bfseries Morne
+            \end{tabular}
+         } } & \multirow{\streamIICastleMorneMobDeaths}{*}{ Monsters } & \multirow{\streamIICastleMorneMobDeaths}{*}{ \streamIICastleMorneMobDeaths } & 05:52:52 \\\cline{6-6}
+        & & & & & 06:35:39 \\\cline{6-6}
+        & & & & & 06:37:30 \\\cline{6-6}
+        & & & & & 06:39:12 \\\cline{4-6}
+        & & & \multirow{\streamIICastleMorneEnvDeaths}{*}{ Environment } & \multirow{\streamIICastleMorneEnvDeaths}{*}{ \streamIICastleMorneEnvDeaths } & 05:53:13 \\\cline{6-6}
+        & & & & & 06:25:51 \\\cline{3-6}
+        & & \multirow{\streamIILimgraveDeaths}{*}{ \bfseries Limgrave } & \multirow{\streamIILimgraveEnvDeaths}{*}{ Environment } & \multirow{\streamIILimgraveEnvDeaths}{*}{\streamIILimgraveEnvDeaths} & 07:08:20 \\\cline{4-6}
+        & & & \multirow{\streamIILimgraveMobDeaths}{*}{ Monsters } & \multirow{\streamIILimgraveMobDeaths}{*}{\streamIILimgraveMobDeaths} & 07:48:44 \\\cline{3-6}
+        & & \multirow{\streamIICatacombsDeaths}{*}{
+            \begin{tabular}{c}
+                \bfseries Tombsward \\
+                \bfseries Catacombs
+            \end{tabular}
+        } & Monsters & \streamIICatacombsMobDeaths & 08:08:33 \\\cline{4-6}
+        & & & \multirow{\streamIICatacombsBossDeaths}{*}{ Cemetery Shade } & \multirow{\streamIICatacombsBossDeaths}{*}{ \streamIICatacombsBossDeaths } & 08:12:40 \\\cline{6-6}
+        & & & & & 08:14:13 \\\cline{3-6}
+        & & \multirow{\streamIILiurniaDeaths}{*}{ 
+            \rotatebox[origin=c]{90}{
+                \begin{tabular}{c}
+                    \bfseries Liurnia \\
+                    \bfseries of the Lakes
+                \end{tabular}
+            }
+         } & \multirow{\streamIILiurniaEnvDeaths}{*}{ Environment } & \multirow{\streamIILiurniaEnvDeaths}{*}{ \streamIILiurniaEnvDeaths } & 09:25:16 \\\cline{6-6}
+        & & & & & 09:55:52 \\\cline{4-6}
+        & & & \multirow{\streamIILiurniaAdanDeaths}{*}{ Adan, the Fire Stealer } & \multirow{\streamIILiurniaAdanDeaths}{*}{ \streamIILiurniaAdanDeaths } & 09:27:53 \\\cline{4-6}
+        & & & \multirow{\streamIILiurniaAvatarDeaths}{*}{ Erdtree Avatar } & \multirow{\streamIILiurniaAvatarDeaths}{*}{ \streamIILiurniaAvatarDeaths } & 09:42:31 \\\cline{4-6}
+        & & & \multirow{\streamIILiurniaMobDeaths}{*}{ Monsters } & \multirow{\streamIILiurniaMobDeaths}{*}{ \streamIILiurniaMobDeaths } & 09:42:31 \\\cline{6-6}
+        & & & & & 10:02:14 \\\cline{6-6}
+        & & & & & 10:18:45 \\\cline{6-6}
+        & & & & & 10:22:24 \\\hline
+        \multicolumn{1}{|c|}{ \bfseries Total } & & & & \streamIIDeathCount & 08:12:00 \\\hline
+    \end{tabular}
+\end{table*}
