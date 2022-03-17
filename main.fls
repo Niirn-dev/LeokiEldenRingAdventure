@@ -458,6 +458,17 @@ INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\generic\uniqueco
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
@@ -683,6 +694,7 @@ INPUT .\introduction.tex
 INPUT introduction.tex
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\dataTables.tex
 OUTPUT dataTables.aux
@@ -722,6 +734,8 @@ INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
