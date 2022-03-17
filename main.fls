@@ -703,8 +703,8 @@ INPUT .\streams\stream2.tex
 INPUT streams\stream2.tex
 INPUT .\streams\stream2.tex
 INPUT streams\stream2.tex
-INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1000.tfm
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1000.tfm
 INPUT .\streams\stream3.tex
 INPUT streams\stream3.tex
 INPUT .\streams\stream3.tex

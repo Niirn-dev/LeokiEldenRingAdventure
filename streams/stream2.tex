@@ -99,16 +99,26 @@
     \relax
 }
 
-\bfseries Stream date --- 28.02.2022 \\
-\normalfont ER starts at 02:16:50
-
-\begin{longtable}[Hc]{r C{3.0cm} c c C{2.0cm}} \toprule
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{2.8cm} c C{2.0cm}} 
+    \multicolumn{5}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream date --- 28.02.2022 \\
+            ER starts at 02:16:50
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule
+    \endfirsthead
+    
+    \toprule
     & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
     \midrule
     \endhead
 
     \nobtrulebreaks
-    
+
     & \multirow{\streamIISiofraDeathCount}{*}{ \bfseries Siofra River } & \multirow{\streamIISiofraEnvDeathCount}{*}{Environment} & \multirow{\streamIISiofraEnvDeathCount}{*}{ \streamIISiofraEnvDeathCount } & 02:44:44\\*
     & & & & 02:33:00\\*
     & & & & 03:51:50\\*

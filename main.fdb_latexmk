@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1647543719 "c:/Misc/LeokiEldenRingStats/main.tex" "main.pdf" "main" 1647543721
+["pdflatex"] 1647544383 "c:/Misc/LeokiEldenRingStats/main.tex" "main.pdf" "main" 1647544385
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647541317 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1647122913 23468 df5d1a585e27cf066232f6c613707899 ""
   "C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1647187592 29472 63417f87e99729e752b1e7aeb96410c3 ""
@@ -83,17 +83,17 @@
   "C:/Users/Sergei_Aliakin/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636710260 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "C:/Users/Sergei_Aliakin/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/Misc/LeokiEldenRingStats/main.tex" 1647542629 867 e51a72ec5ff4fe55d3fb68615a768480 ""
-  "dataTables.aux" 1647543720 1853 0df46bb2833eabc318d024b8e569f48d "pdflatex"
+  "dataTables.aux" 1647544384 1851 fd416ad22d9adc93936c96aead0c3b24 "pdflatex"
   "dataTables.tex" 1647363474 153 200166e631a1dd282efcd165286d5ea0 ""
-  "introduction.aux" 1647543720 798 7ddea3e3d9944b82b4770acfd60d3bf9 "pdflatex"
+  "introduction.aux" 1647544384 798 7ddea3e3d9944b82b4770acfd60d3bf9 "pdflatex"
   "introduction.tex" 1647118988 440 3d4d34aa0fa768267c1f45191988d3fe ""
   "longtableBooktabsFix.tex" 1647541005 2461 4c34cddc50359b2f903de04ff9e57e5a ""
-  "main.aux" 1647543720 816 7ae0288a5dc5314dd389393f804acc11 "pdflatex"
-  "main.out" 1647543720 552 a4e79058d5f672037bc7e578e38d4f31 "pdflatex"
+  "main.aux" 1647544384 816 7ae0288a5dc5314dd389393f804acc11 "pdflatex"
+  "main.out" 1647544384 552 a4e79058d5f672037bc7e578e38d4f31 "pdflatex"
   "main.tex" 1647542629 867 e51a72ec5ff4fe55d3fb68615a768480 ""
   "streams/stream1.tex" 1647534124 103 e5681d302b901de2e0639b28268e0d30 ""
-  "streams/stream2.tex" 1647540747 7713 a4596de04acb8fb1342fcd5858444847 ""
-  "streams/stream3.tex" 1647543717 6419 0490f297936bc3cbf7adab46fb1b66b2 ""
+  "streams/stream2.tex" 1647544246 7966 1c523b9746737d3152c52f8502e2ee37 ""
+  "streams/stream3.tex" 1647544382 6560 42e87babb795a6e56e5fdef978b472b4 ""
   (generated)
   "dataTables.aux"
   "introduction.aux"
