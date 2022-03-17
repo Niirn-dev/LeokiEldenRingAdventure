@@ -1,0 +1,64 @@
+
+%%%% Tomado de http://tex.stackexchange.com/questions/52100/longtable-multirow-problem-with-cline-and-nopagebreak
+\makeatletter
+\let\BT@nobreak\relax
+\def\@@@cmidrule[#1-#2]#3#4{\global\@cmidla#1\relax
+    \global\advance\@cmidla\m@ne
+    \ifnum\@cmidla>0\global\let\@gtempa\@cmidrulea\else
+    \global\let\@gtempa\@cmidruleb\fi
+    \global\@cmidlb#2\relax
+    \global\advance\@cmidlb-\@cmidla
+    \global\@thisrulewidth=#3
+    \@setrulekerning{#4}
+    \ifnum\@lastruleclass=\z@\BT@nobreak\vskip \aboverulesep\fi
+    \ifnum0=`{\fi}\@gtempa
+    \noalign{\ifnum0=`}\fi\futurenonspacelet\@tempa\@xcmidrule}
+
+\def\@BTendrule{\ifx\@tempa\toprule\global\@lastruleclass=\@thisruleclass
+  \else\ifx\@tempa\midrule\global\@lastruleclass=\@thisruleclass
+  \else\ifx\@tempa\bottomrule\global\@lastruleclass=\@thisruleclass
+  \else\ifx\@tempa\cmidrule\global\@lastruleclass=\@thisruleclass
+  \else\ifx\@tempa\specialrule\global\@lastruleclass=\@thisruleclass
+  \else\ifx\@tempa\addlinespace\global\@lastruleclass=\@thisruleclass
+  \else\global\@lastruleclass=\z@\fi\fi\fi\fi\fi\fi
+  \ifnum\@lastruleclass=\@ne\relax\else\BT@nobreak\vskip\@belowrulesep\fi
+  \ifnum0=`{\fi}}
+
+\def\@xcmidrule{%
+   \ifx\@tempa\cmidrule
+       \BT@nobreak\vskip-\@thisrulewidth
+       \global\@lastruleclass=\@ne
+   \else \ifx\@tempa\morecmidrules
+       \BT@nobreak\vskip \cmidrulesep
+       \global\@lastruleclass=\@ne\else
+       \BT@nobreak\vskip \belowrulesep
+       \global\@lastruleclass=\z@
+   \fi\fi
+   \ifnum0=`{\fi}}
+
+\def\@BTrule[#1]{%
+\BT@nobreak
+  \global\@thisrulewidth=#1\relax
+  \ifnum\@thisruleclass=\tw@\vskip\@aboverulesep\else
+  \ifnum\@lastruleclass=\z@\vskip\@aboverulesep\else
+  \ifnum\@lastruleclass=\@ne\vskip\doublerulesep\fi\fi\fi
+  \ifx\longtable\undefined
+     \let\@BTswitch\@BTnormal
+  \else\ifx\hline\LT@hline
+     \let\@BTswitch\@BLTrule
+  \else
+     \let\@BTswitch\@BTnormal
+  \fi\fi
+  \@BTswitch}
+
+\def\@cmidrulea{%
+  \multispan\@cmidla&\multispan\@cmidlb
+  \unskip\hskip\cmrkern@l%
+  {\CT@arc@\leaders\hrule \@height\@thisrulewidth\hfill}%
+  \hskip\cmrkern@r\cr
+  \noalign{\BT@nobreak\vskip-\@thisrulewidth} %% Inserted \BT@nobreak here
+}%
+
+\def\nobtrulebreaks{\noalign{\global\let\BT@nobreak\nobreak}}
+\def\allowbtrulebreaks{\noalign{\global\let\BT@nobreak\relax}}
+\makeatother
