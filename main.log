@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.12)  18 MAR 2022 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.12)  19 MAR 2022 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -732,31 +732,33 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 {C:/Users/Sergei_Aliakin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 \openout2 = `dataTables.aux'.
 
- (dataTables.tex (streams/stream1.tex) [2
-
-
-
-] (streams/stream2.tex
+ (dataTables.tex
+\c@streamCounter=\count311
+ (streams/stream2.tex
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 108.
+(Font)              <7> on input line 109.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 108.
- [3]) [4] (streams/stream3.tex) [5] (streams/conclusion.tex)) [6] (main.aux (introduction.aux) (dataTables.aux))
+(Font)              <5> on input line 109.
+ [2
+
+
+
+]) [3] (streams/stream3.tex) [4] (streams/stream4.tex) [5] (streams/conclusion.tex)) [6] (main.aux (introduction.aux) (dataTables.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E7A4F1ECDECECDD9C518363FB91110B2;677.
  ) 
 Here is how much of TeX's memory you used:
- 13181 strings out of 478659
- 217819 string characters out of 2841654
- 579318 words of memory out of 3000000
- 31068 multiletter control sequences out of 15000+600000
+ 13202 strings out of 478659
+ 218182 string characters out of 2841654
+ 580442 words of memory out of 3000000
+ 31088 multiletter control sequences out of 15000+600000
  408851 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,63p,347b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk>
-Output written on main.pdf (6 pages, 64071 bytes).
+Output written on main.pdf (6 pages, 65801 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

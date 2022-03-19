@@ -1,0 +1,143 @@
+\subsection{Stream \#\thestreamCounter{}}
+\stepcounter{streamCounter}
+
+\newcommand\streamIVRootMobDeaths{1}
+\newcommand\streamIVRootKnightDeaths{5}
+\newcommand\streamIVRootDeaths{
+    \the\numexpr
+    \streamIVRootMobDeaths +
+    \streamIVRootKnightDeaths
+    \relax
+}
+
+\newcommand\streamIVCaelidJarDeaths{2}
+\newcommand\streamIVCaelidEnvDeaths{1}
+\newcommand\streamIVCaelidPutridDeaths{4}
+\newcommand\streamIVCaelidDeaths{
+    \the\numexpr
+    \streamIVCaelidJarDeaths +
+    \streamIVCaelidEnvDeaths +
+    \streamIVCaelidPutridDeaths
+    \relax
+}
+
+\newcommand\streamIVElemerDeaths{3}
+\newcommand\streamIVShadedDeaths{
+    \the\numexpr
+    \streamIVElemerDeaths
+    \relax
+}
+
+\newcommand\streamIVEnvDeaths{
+    \the\numexpr
+    \streamIVCaelidEnvDeaths
+    \relax
+}
+\newcommand\streamIVMobDeaths{
+    \the\numexpr
+    \streamIVRootMobDeaths +
+    \streamIVCaelidJarDeaths
+    \relax
+}
+\newcommand\streamIVBossDeaths{
+    \the\numexpr
+    \streamIVRootKnightDeaths +
+    \streamIVElemerDeaths +
+    \streamIVCaelidPutridDeaths
+    \relax
+}
+\newcommand\streamIVDeaths{
+    \the\numexpr
+    \streamIVEnvDeaths +
+    \streamIVMobDeaths +
+    \streamIVBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} C{2.0cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream Date --- 07.03.2022 \\
+            ER starts at 00:05:25
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \bfseries Notable\\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\streamIVRootDeaths}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Deeproot \\
+            \bfseries Depths
+        \end{tabular}
+    } & \multirow{\streamIVRootMobDeaths}{*}{ Monsters } & \multirow{\streamIVRootMobDeaths}{*}{ \streamIVRootMobDeaths } & 00:24:06 & \\*
+    \cmidrule{3-6}
+    & & \multirow{\streamIVRootKnightDeaths}{*}{ 
+        \begin{tabular}{c}
+            Crusible Knight \\
+            Siluria
+        \end{tabular}
+    } & \multirow{\streamIVRootKnightDeaths}{*}{ \streamIVRootKnightDeaths } & 00:28:20 & \\*
+    & & & & 00:30:18 & \\*
+    & & & & 00:31:51 & \\*
+    & & & & 00:33:21 & Respect it\\*
+    & & & & 00:35:45 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamIVCaelidDeaths}{*}{ \bfseries Caelid } & \multirow{\streamIVCaelidJarDeaths}{*}{ 
+        \begin{tabular}{c}
+            Knights of \\
+            the Great Jar
+        \end{tabular}
+    } & \multirow{\streamIVCaelidJarDeaths}{*}{ \streamIVCaelidJarDeaths } & 01:25:20 & \\*
+    & & & & 01:27:23 & \\*
+    \cmidrule{3-6}
+    & & \multirow{\streamIVCaelidEnvDeaths}{*}{ Environment } & \multirow{\streamIVCaelidEnvDeaths}{*}{ \streamIVCaelidEnvDeaths } & 02:24:53 & \\*
+    \cmidrule{3-6}
+    & & \multirow{\streamIVCaelidPutridDeaths}{*}{ Putrid Avatar } & \multirow{\streamIVCaelidPutridDeaths}{*}{ \streamIVCaelidPutridDeaths } & 02:25:26 & \\*
+    & & & & 02:26:10 & \\*
+    & & & & 02:41:46 & \\*
+    & & & & 02:42:20 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamIVShadedDeaths}{*}{ 
+        \begin{tabular}{c}
+            \bfseries The Shaded \\
+            \bfseries Castle
+        \end{tabular}
+    } & \multirow{\streamIVElemerDeaths}{*}{ 
+        \begin{tabular}{c}
+            Elemer \\
+            of the Briar
+         \end{tabular}
+        } & \multirow{\streamIVElemerDeaths}{*}{ \streamIVElemerDeaths } & 02:02:55 & \\\*
+    & & & & 02:04:20 & \\*
+    & & & & 02:05:04 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \streamIVEnvDeaths & \\
+    \bfseries Monsters & & & \streamIVMobDeaths & \\
+    \bfseries Bosses & & & \streamIVBossDeaths & \\
+    \bfseries Total & & & \streamIVDeaths & 02:52:40 \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
