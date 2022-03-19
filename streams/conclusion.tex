@@ -1,0 +1,45 @@
+\subsection{Final numbers}
+
+\newcommand\streamConcEnvDeaths{
+    \the\numexpr
+    \streamIIEnvDeaths+
+    \streamIIIEnvDeaths
+    \relax
+}
+\newcommand\streamConcMobDeaths{
+    \the\numexpr
+    \streamIIMobDeaths+
+    \streamIIIMobDeaths
+    \relax
+}
+\newcommand\streamConcBossDeaths{
+    \the\numexpr
+    \streamIIBossDeaths+
+    \streamIIIBossDeaths
+    \relax
+}
+\newcommand\streamConcDeaths{
+    \the\numexpr
+    \streamIIDeathCount+
+    \streamIIIDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm}}
+    \multicolumn{2}{l}{ \bfseries Conclusion } \\
+
+    \toprule
+    \bfseries Category & \bfseries Count \\
+    \midrule
+    \endhead
+
+    \nobtrulebreaks
+
+    \bfseries Environment & \streamConcEnvDeaths \\*
+    \bfseries Monsters & \streamConcMobDeaths \\*
+    \bfseries Bosses & \streamConcBossDeaths \\*
+    \bfseries Total & \streamConcDeaths \\*
+
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
