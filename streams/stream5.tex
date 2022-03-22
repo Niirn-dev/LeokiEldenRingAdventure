@@ -1,0 +1,203 @@
+\subsection{Stream \#\thestreamCounter{}}
+\stepcounter{streamCounter}
+
+\newcommand\streamVGelmirMob{1}
+\newcommand\streamVGelmir{
+    \the\numexpr
+    \streamVGelmirMob
+    \relax
+}
+
+\newcommand\streamVAltusMob{2}
+\newcommand\streamVAltus{
+    \the\numexpr
+    \streamVAltusMob
+    \relax
+}
+
+\newcommand\streamVWoodMob{1}
+\newcommand\streamVWood{
+    \the\numexpr
+    \streamVWoodMob
+    \relax
+}
+
+\newcommand\streamVOutsMob{3}
+\newcommand\streamVOutsEnv{2}
+\newcommand\streamVOutsSentinel{2}
+\newcommand\streamVOutsDeaths{
+    \the\numexpr
+    \streamVOutsMob +
+    \streamVOutsEnv +
+    \streamVOutsSentinel
+    \relax
+}
+
+\newcommand\streamVAurizaEnv{4}
+\newcommand\streamVAurizaMob{1}
+\newcommand\streamVAurizaBoss{2}
+\newcommand\streamVAurizaDeaths{
+    \the\numexpr
+    \streamVAurizaEnv +
+    \streamVAurizaMob +
+    \streamVAurizaBoss
+    \relax
+}
+
+\newcommand\streamVCapitalMob{6}
+\newcommand\streamVCapitalDeaths{
+    \the\numexpr
+    \streamVCapitalMob
+    \relax
+}
+
+\newcommand\streamVLimgraveEnv{1}
+\newcommand\streamVLimgrave{
+    \the\numexpr
+    \streamVLimgraveEnv
+    \relax
+}
+
+\newcommand\streamVEnvDeaths{
+    \the\numexpr
+    \streamVOutsEnv +
+    \streamVAurizaEnv +
+    \streamVLimgraveEnv
+    \relax
+}
+\newcommand\streamVMobDeaths{
+    \the\numexpr
+    \streamVGelmirMob +
+    \streamVAltusMob +
+    \streamVWoodMob +
+    \streamVOutsMob +
+    \streamVAurizaMob +
+    \streamVCapitalMob
+    \relax
+}
+\newcommand\streamVBossDeaths{
+    \the\numexpr
+    \streamVOutsSentinel +
+    \streamVAurizaBoss
+    \relax
+}
+\newcommand\streamVDeaths{
+    \the\numexpr
+    \streamVEnvDeaths +
+    \streamVMobDeaths +
+    \streamVBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} C{2.0cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream Date --- 11.03.2022 \\
+            ER starts at 01:31:25
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \bfseries Notable\\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\streamVGelmir}{*}{ \bfseries Mt. Gelmir } & \multirow{\streamVGelmirMob}{*}{ Monsters } & \multirow{\streamVGelmirMob}{*}{\streamVGelmirMob} & 01:37:17 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVAltus}{*}{ \bfseries Altus Plateau } & \multirow{\streamVAltusMob}{*}{ Monsters } & \multirow{\streamVAltusMob}{*}{ \streamVAltusMob } & 01:50:40 & The Dog \\*
+    & & & & 01:54:47 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+    
+    & \multirow{\streamVWood}{*}{ \small\bfseries Woodfolk Ruins } & \multirow{\streamVWoodMob}{*}{ Monsters } & \multirow{\streamVWoodMob}{*}{ \streamVWoodMob } & 02:10:56 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+    
+    & \multirow{\streamVOutsDeaths}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Capital \\
+            \bfseries Outskirts
+        \end{tabular}
+    } & \multirow{\streamVOutsMob}{*}{ Monsters } & \multirow{\streamVOutsMob}{*}{ \streamVOutsMob } & 03:15:26 & \tiny Help a brother out \\
+    & & & & 03:32:54 & \\
+    & & & & 03:49:14 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVOutsEnv}{*}{ Environment } & \multirow{\streamVOutsEnv}{*}{ \streamVOutsEnv } & 03:28:23 & \tiny Not the backstep \\
+    & & & & 04:28:54 & \small Terranceee! \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVOutsSentinel}{*}{ 
+        \begin{tabular}{c}
+             Draconic \\
+             Tree Sentinel
+        \end{tabular}
+     } & \multirow{\streamVOutsSentinel}{*}{ \streamVOutsSentinel } & 04:18:26 & \\
+    & & & & 04:20:48 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVAurizaDeaths}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Auriza \\
+            \bfseries Hero's Grave
+        \end{tabular}
+     } & \multirow{\streamVAurizaEnv}{*}{ Environment } & \multirow{\streamVAurizaEnv}{*}{ \streamVAurizaEnv } & 05:13:40 & Chariot \\
+    & & & & 05:14:45 & Chariot 2 \\
+    & & & & 05:18:56 & Chariot 3 \\
+    & & & & 05:20:43 & Chariot 4 \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVAurizaMob}{*}{ Monsters } & \multirow{\streamVAurizaMob}{*}{ \streamVAurizaMob } & 05:16:07 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVAurizaBoss}{*}{ Crusible Duo } & \multirow{\streamVAurizaBoss}{*}{ \streamVAurizaBoss } & 05:24:56 & \\
+    & & & & 05:26:14 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVCapitalDeaths}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Leyndell, \\
+            \small\bfseries Royal Capital
+        \end{tabular}
+     } & \multirow{\streamVCapitalMob}{*}{ Monsters } & \multirow{\streamVCapitalMob}{*}{ \streamVCapitalMob } & 05:54:15 & \\
+    & & & & 05:55:15 & \\
+    & & & & 07:36:41 & \\
+    & & & & 07:37:51 & \\
+    & & & & 07:39:12 & \\
+    & & & & 07:51:13 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVLimgrave}{*}{ \bfseries Limgrave } & \multirow{\streamVLimgraveEnv}{*}{ Environment } & \multirow{\streamVLimgraveEnv}{*}{ \streamVLimgraveEnv } & 07:10:52 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \streamVEnvDeaths & & \\
+    \bfseries Monsters & & & \streamVMobDeaths & & \\
+    \bfseries Bosses & & & \streamVBossDeaths & & \\
+    \bfseries Total & & & \streamVDeaths & 06:37:35 & \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
