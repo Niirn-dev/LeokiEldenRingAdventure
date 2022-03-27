@@ -1,0 +1,124 @@
+\subsection{Stream \#\thestreamCounter{}}
+\stepcounter{streamCounter}
+
+\newcommand\streamVIGelmirEnv{1}
+\newcommand\streamVIGelmir{
+    \the\numexpr
+    \streamVIGelmirEnv
+    \relax
+}
+
+\newcommand\streamVITopsEnv{1}
+\newcommand\streamVITopsBird{2}
+\newcommand\streamVITops{
+    \the\numexpr
+    \streamVITopsEnv +
+    \streamVITopsBird
+    \relax
+}
+
+\newcommand\streamVILakeEnv{1}
+\newcommand\streamVILake{
+    \the\numexpr
+    \streamVILakeEnv
+    \relax
+}
+
+\newcommand\streamVIPathMob{2}
+\newcommand\streamVIPath{
+    \the\numexpr
+    \streamVIPathMob
+    \relax
+}
+
+\newcommand\streamVIEnvDeaths{
+    \the\numexpr
+    \streamVIGelmirEnv +
+    \streamVITopsEnv +
+    \streamVILakeEnv
+    \relax
+}
+\newcommand\streamVIMobDeaths{
+    \the\numexpr
+    \streamVIPathMob
+    \relax
+}
+\newcommand\streamVIBossDeaths{
+    \the\numexpr
+    \streamVITopsBird
+    \relax
+}
+\newcommand\streamVIDeaths{
+    \the\numexpr
+    \streamVIEnvDeaths +
+    \streamVIMobDeaths +
+    \streamVIBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} C{2.0cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream Date --- 26.03.2022 \\
+            ER starts at 04:44:30
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \bfseries Notable\\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\streamVIGelmir}{*}{ \bfseries Mt. Gelmir } & \multirow{\streamVIGelmirEnv}{*}{ Environment } & \multirow{\streamVIGelmirEnv}{*}{\streamVIGelmirEnv} & 04:49:46 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVITops}{*}{ 
+        \begin{tabular}{c}
+            \small\bfseries Mountaintops \\
+            \small\bfseries of the Giants
+        \end{tabular}
+     } & \multirow{\streamVITopsEnv}{*}{ Environment } & \multirow{\streamVITopsEnv}{*}{\streamVITopsEnv} & 06:25:30 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVITopsBird}{*}{ Death Rite Bird } & \multirow{\streamVITopsBird}{*}{\streamVITopsBird} & 06:30:13 & \\
+    & & & & 06:31:10 & The strat\\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVILake}{*}{ \tiny\bfseries Liurnia of Lakes } & \multirow{\streamVILakeEnv}{*}{ Environment } & \multirow{\streamVILakeEnv}{*}{\streamVILakeEnv} & 06:58:51 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVIPath}{*}{ 
+        \begin{tabular}{c}
+            \scriptsize\bfseries Hidden Path \\
+            \scriptsize\bfseries to the Haligtree
+        \end{tabular}
+     } & \multirow{\streamVIPathMob}{*}{ Monsters } & \multirow{\streamVIPathMob}{*}{\streamVIPathMob} & 07:02:31 & \\
+    & & & & 03:32:00 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \streamVIEnvDeaths & & \\
+    \bfseries Monsters & & & \streamVIMobDeaths & & \\
+    \bfseries Bosses & & & \streamVIBossDeaths & & \\
+    \bfseries Total & & & \streamVIDeaths & & \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}

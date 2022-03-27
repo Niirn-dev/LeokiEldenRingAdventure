@@ -5,7 +5,8 @@
     \streamIIEnvDeaths +
     \streamIIIEnvDeaths +
     \streamIVEnvDeaths +
-    \streamVEnvDeaths
+    \streamVEnvDeaths +
+    \streamVIEnvDeaths
     \relax
 }
 \newcommand\streamConcMobDeaths{
@@ -13,7 +14,8 @@
     \streamIIMobDeaths +
     \streamIIIMobDeaths +
     \streamIVMobDeaths +
-    \streamVMobDeaths
+    \streamVMobDeaths +
+    \streamVIMobDeaths
     \relax
 }
 \newcommand\streamConcBossDeaths{
@@ -21,15 +23,15 @@
     \streamIIBossDeaths +
     \streamIIIBossDeaths +
     \streamIVBossDeaths +
-    \streamVBossDeaths
+    \streamVBossDeaths +
+    \streamVIBossDeaths
     \relax
 }
 \newcommand\streamConcDeaths{
     \the\numexpr
-    \streamIIDeathCount +
-    \streamIIIDeaths +
-    \streamIVDeaths +
-    \streamVDeaths
+    \streamConcEnvDeaths +
+    \streamConcMobDeaths +
+    \streamConcBossDeaths
     \relax
 }
 
