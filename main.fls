@@ -735,6 +735,10 @@ INPUT streams\stream6.tex
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx0500.tfm
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0700.tfm
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx0700.tfm
+INPUT .\streams\stream7.tex
+INPUT streams\stream7.tex
+INPUT .\streams\stream7.tex
+INPUT streams\stream7.tex
 INPUT .\streams\conclusion.tex
 INPUT streams\conclusion.tex
 INPUT .\streams\conclusion.tex
@@ -748,6 +752,8 @@ INPUT dataTables.aux
 INPUT dataTables.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
+INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx0700.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx0700.pk
 INPUT C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx0500.pk

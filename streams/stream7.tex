@@ -1,0 +1,186 @@
+\subsection{Stream \#\thestreamCounter{}}
+\stepcounter{streamCounter}
+
+\newcommand\streamVIISnowfieldAvatar{1}
+\newcommand\streamVIISnowfield{
+    \the\numexpr
+    \streamVIISnowfieldAvatar
+    \relax
+}
+
+\newcommand\streamVIILudinaMob{2}
+\newcommand\streamVIILudina{
+    \the\numexpr
+    \streamVIILudinaMob
+    \relax
+}
+
+\newcommand\streamVIITreeMob{2}
+\newcommand\streamVIITreeEnv{2}
+\newcommand\streamVIITree{
+    \the\numexpr
+    \streamVIITreeMob +
+    \streamVIITreeEnv
+    \relax
+}
+
+\newcommand\streamVIIElphaelMob{5}
+\newcommand\streamVIIElphaelEnv{1}
+\newcommand\streamVIIElphaelMalenia{21}
+\newcommand\streamVIIElphael{
+    \the\numexpr
+    \streamVIIElphaelMob +
+    \streamVIIElphaelEnv +
+    \streamVIIElphaelMalenia
+    \relax
+}
+
+\newcommand\streamVIIEnvDeaths{
+    \the\numexpr
+    \streamVIITreeEnv +
+    \streamVIIElphaelEnv
+    \relax
+}
+\newcommand\streamVIIMobDeaths{
+    \the\numexpr
+    \streamVIILudinaMob +
+    \streamVIITreeMob +
+    \streamVIIElphaelMob
+    \relax
+}
+\newcommand\streamVIIBossDeaths{
+    \the\numexpr
+    \streamVIISnowfieldAvatar +
+    \streamVIIElphaelMalenia
+    \relax
+}
+\newcommand\streamVIIDeaths{
+    \the\numexpr
+    \streamVIIEnvDeaths +
+    \streamVIIMobDeaths +
+    \streamVIIBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} C{2.0cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream Date --- 31.03.2022 \\
+            ER starts at 08:54:50
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \bfseries Notable\\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\streamVIISnowfield}{*}{ \tiny\bfseries Consecrated Snowfield } & \multirow{\streamVIISnowfieldAvatar}{*}{ Putrid Avatar } & \multirow{\streamVIISnowfieldAvatar}{*}{\streamVIISnowfieldAvatar} & 09:06:46 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVIILudina}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Ordina, \\
+            \scriptsize\bfseries Liturgical Town
+        \end{tabular}
+    } & \multirow{\streamVIILudinaMob}{*}{ Monsters } & \multirow{\streamVIILudinaMob}{*}{\streamVIILudinaMob} & 09:17:22 & \\
+    & & & & 09:24:00 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVIITree}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Miquella's \\
+            \bfseries Haligtree
+        \end{tabular}
+     } & \multirow{\streamVIITreeMob}{*}{ Monsters } & \multirow{\streamVIITreeMob}{*}{\streamVIITreeMob} & 09:53:55 & \\
+    & & & & 10:03:53 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVIITreeEnv}{*}{ Environment } & \multirow{\streamVIITreeEnv}{*}{\streamVIITreeEnv} & 09:54:30 & \\
+    & & & & 09:55:00 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\streamVIIElphael}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Elphael, \\
+            \scriptsize\bfseries Brace of the \\
+            \scriptsize\bfseries Haligtree \\
+        \end{tabular}
+    } & \multirow{\streamVIIElphaelMob}{*}{ Monsters } & \multirow{\streamVIIElphaelMob}{*}{\streamVIIElphaelMob} & 10:31:03 & \\
+    & & & & 10:33:39 & \\
+    & & & & 10:36:21 & \\
+    & & & & 10:39:24 & \\
+    & & & & 10:49:52 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVIIElphaelEnv}{*}{ Environment } & \multirow{\streamVIIElphaelEnv}{*}{\streamVIIElphaelEnv} & 11:03:24 & \\
+    \cmidrule{3-6}
+    & & \multirow{\streamVIIElphaelMalenia}{*}{ 
+        \begin{tabular}{c}
+            Malenia, \\
+            \small the Blade of Miquella
+        \end{tabular}
+    } & \multirow{\streamVIIElphaelMalenia}{*}{\streamVIIElphaelMalenia} & 11:08:36 & \\
+    & & & & 11:13:27 & \\
+    & & & & 11:14:57 & \\
+    & & & & 11:18:14 & \\
+    & & & & 11:21:28 & \\
+    & & & & 11:23:33 & \\
+    & & & & 11:25:24 & \\
+    & & & & 11:28:10 & \scriptsize So what if I run from those \\
+    & & & & 11:30:33 & \\
+    & & & & 11:31:44 & \\
+    & & & & 11:34:00 & \\
+    & & & & 11:35:37 & \\
+    & & & & 11:39:34 & \\
+    & & & & 11:42:33 & \\
+    & & & & 11:43:44 & \\
+    & & & & 11:44:51 & \\
+    & & & & 11:46:01 & \\
+    & & & & 11:49:39 & \\
+    & & & & 11:52:07 & \\
+    & & & & 11:54:06 & \\
+    & & & & 11:58:05 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \streamVIIEnvDeaths & & \\
+    \bfseries Monsters & & & \streamVIIMobDeaths & & \\
+    \bfseries Bosses & & & \streamVIIBossDeaths & & \\
+    \bfseries Total & & & \streamVIIDeaths & 03:06:40 & \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
+
+\begin{longtable}[c]{C{2.0cm} C{2.0cm} C{2.2cm}}
+    \multicolumn{3}{l}{ Break timestamps } \\
+
+    \toprule
+    \bfseries Begin & \bfseries End & \bfseries Duration \\
+    \midrule
+    \endhead
+
+    \nobtrulebreaks
+
+    09:33:30 & 09:48:50 & 00:15:20 \\
+
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}

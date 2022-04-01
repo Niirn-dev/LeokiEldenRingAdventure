@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.12)  29 MAR 2022 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.12)  1 APR 2022 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -743,22 +743,22 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 
 
 
-]) [3] (streams/stream3.tex) [4] (streams/stream4.tex) [5] (streams/stream5.tex) [6] (streams/stream6.tex) [7] (streams/conclusion.tex)) [8] (main.aux (introduction.aux) (dataTables.aux))
+]) [3] (streams/stream3.tex) [4] (streams/stream4.tex) [5] (streams/stream5.tex) [6] (streams/stream6.tex) [7] (streams/stream7.tex) [8] (streams/conclusion.tex)) [9] (main.aux (introduction.aux) (dataTables.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8ECAC3482438CB6EF8179FC4D0D107CD;893.
+(rerunfilecheck)             Checksum: 407A0F4616FF66EDE59DA77D92D68EAF;1001.
  ) 
 Here is how much of TeX's memory you used:
- 13271 strings out of 478659
- 219220 string characters out of 2841654
- 580650 words of memory out of 3000000
- 31139 multiletter control sequences out of 15000+600000
+ 13300 strings out of 478659
+ 219691 string characters out of 2841654
+ 580813 words of memory out of 3000000
+ 31161 multiletter control sequences out of 15000+600000
  413730 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,63p,347b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0700.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0500.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0500.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk>
-Output written on main.pdf (8 pages, 94688 bytes).
+ <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0700.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0500.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0500.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Sergei_Aliakin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk>
+Output written on main.pdf (9 pages, 109881 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
