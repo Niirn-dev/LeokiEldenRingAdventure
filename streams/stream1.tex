@@ -1,4 +1,168 @@
 \subsection{Stream \#\thestreamCounter{}}
 \stepcounter{streamCounter}
 
-First stream's VoD is currently unavailable since it has expired from twitch.
+\newcommand\ITutorialBoss{1}
+\newcommand\ITutorial{
+    \the\numexpr
+    \ITutorialBoss
+    \relax
+}
+
+\newcommand\ILimgraveSentinel{19}
+\newcommand\ILimgraveMonsters{3}
+\newcommand\ILimgrave{
+    \the\numexpr
+    \ILimgraveSentinel +
+    \ILimgraveMonsters
+    \relax
+}
+
+\newcommand\IStormhillMobs{1}
+\newcommand\IStormhillMargit{14}
+\newcommand\IStormhill{
+    \the\numexpr
+    \IStormhillMobs +
+    \IStormhillMargit
+    \relax
+}
+
+\newcommand\ITableMobs{4}
+\newcommand\ITable{
+    \the\numexpr
+    \ITableMobs
+    \relax
+}
+
+\newcommand\IEnvDeaths{
+    \the\numexpr
+    0
+    \relax
+}
+\newcommand\IMobDeaths{
+    \the\numexpr
+    \ILimgraveMonsters +
+    \IStormhillMobs +
+    \ITableMobs
+    \relax
+}
+\newcommand\IBossDeaths{
+    \the\numexpr
+    \ITutorialBoss +
+    \ILimgraveSentinel +
+    \IStormhillMargit
+    \relax
+}
+\newcommand\IDeaths{
+    \the\numexpr
+    \IEnvDeaths +
+    \IMobDeaths +
+    \IBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} C{2.0cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \bfseries Stream Date --- 25.02.2022 \\
+            \href{https://www.youtube.com/watch?v=egCs-hEgcXE}{Youtube link}
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \bfseries Notable\\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\ITutorial}{*}{ \bfseries Tutorial } & \multirow{\ITutorialBoss}{*}{ Grafted Scion } & \multirow{\ITutorialBoss}{*}{\ITutorialBoss} & 00:25:14 & \\
+    
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\ILimgrave}{*}{ \bfseries Limgrave } & \multirow{\ILimgraveSentinel}{*}{ Tree Sentinel } & \multirow{\ILimgraveSentinel}{*}{ \ILimgraveSentinel } & 00:47:00 & \\
+    & & & & 00:48:48 & \\
+    & & & & 00:49:48 & \\
+    & & & & 00:51:42 & \\
+    & & & & 00:53:59 & \\
+    & & & & 00:57:26 & \\
+    & & & & 00:58:30 & \\
+    & & & & 01:00:45 & \\
+    & & & & 01:28:56 & \\
+    & & & & 01:30:32 & \\
+    & & & & 01:31:34 & \\
+    & & & & 01:32:34 & \\
+    & & & & 01:35:30 & \\
+    & & & & 01:37:04 & \\
+    & & & & 01:41:18 & \\
+    & & & & 01:44:30 & \\
+    & & & & 01:46:17 & \\
+    & & & & 01:47:22 & \\
+    & & & & 01:50:15 & \\
+
+    \cmidrule{3-6}
+
+    & & \multirow{\ILimgraveMonsters}{*}{ Monsters } & \multirow{\ILimgraveMonsters}{*}{ \ILimgraveMonsters } & 01:03:50 & \\
+    & & & & 01:06:45 & \\
+    & & & & 02:16:24 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\IStormhill}{*}{ \bfseries Stormhill } & \multirow{\IStormhillMobs}{*}{ Monsters } & \multirow{\IStormhillMobs}{*}{ \IStormhillMobs } & 02:40:40 & \\
+
+    \cmidrule{3-6}
+
+    & & \multirow{\IStormhillMargit}{*}{ 
+        \begin{tabular}{c}
+            Margit, \\
+            \small the Fell Omen
+        \end{tabular}
+    } & \multirow{\IStormhillMargit}{*}{ \IStormhillMargit } & 02:53:12 & \\
+    & & & & 02:56:56 & \\
+    & & & & 02:59:19 & \\
+    & & & & 03:02:44 & \\
+    & & & & 03:06:44 & \\
+    & & & & 03:11:10 & \\
+    & & & & 03:14:49 & \\
+    & & & & 03:21:30 & \\
+    & & & & 03:26:45 & \\
+    & & & & 03:48:11 & \\
+    & & & & 03:51:24 & \\
+    & & & & 03:55:04 & \\
+    & & & & 03:59:10 & \\
+    & & & & 04:02:21 & \\
+
+    \allowbtrulebreaks
+    \cmidrule{2-6}
+    \nobtrulebreaks
+
+    & \multirow{\ITable}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Roundtable \\
+            \bfseries Hold
+        \end{tabular}
+    } & \multirow{\ITableMobs}{*}{ Monsters } & \multirow{\ITableMobs}{*}{ \ITableMobs } & 03:37:49 & \\
+    & & & & 03:39:09 & \\
+    & & & & 03:40:03 & \\
+    & & & & 03:41:55 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \IEnvDeaths & & \\
+    \bfseries Monsters & & & \IMobDeaths & & \\
+    \bfseries Bosses & & & \IBossDeaths & & \\
+    \bfseries Total & & & \IDeaths & 04:08:18 & \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
