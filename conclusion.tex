@@ -1,0 +1,61 @@
+\subsection{Final numbers}
+
+\newcommand\ConcEnvDeaths{
+    \the\numexpr
+    \IEnvDeaths
+    + \IIEnvDeaths
+    % \IIIEnvDeaths +
+    % \IVEnvDeaths +
+    % \VEnvDeaths +
+    % \VIEnvDeaths +
+    % \VIIEnvDeaths
+    \relax
+}
+\newcommand\ConcMobDeaths{
+    \the\numexpr
+    \IMobDeaths
+    + \IIMobDeaths
+    % \IIIMobDeaths +
+    % \IVMobDeaths +
+    % \VMobDeaths +
+    % \VIMobDeaths +
+    % \VIIMobDeaths
+    \relax
+}
+\newcommand\ConcBossDeaths{
+    \the\numexpr
+    \IBossDeaths
+    + \IIBossDeaths
+    % \IIIBossDeaths +
+    % \IVBossDeaths +
+    % \VBossDeaths +
+    % \VIBossDeaths + 
+    % \VIIBossDeaths
+    \relax
+}
+\newcommand\ConcDeaths{
+    \the\numexpr
+    \ConcEnvDeaths +
+    \ConcMobDeaths +
+    \ConcBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm}}
+    \multicolumn{2}{l}{ \bfseries Conclusion } \\
+
+    \toprule
+    \bfseries Category & \bfseries Count \\
+    \midrule
+    \endhead
+
+    \nobtrulebreaks
+
+    \bfseries Environment & \ConcEnvDeaths \\*
+    \bfseries Monsters & \ConcMobDeaths \\*
+    \bfseries Bosses & \ConcBossDeaths \\*
+    \bfseries Total & \ConcDeaths \\*
+
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
