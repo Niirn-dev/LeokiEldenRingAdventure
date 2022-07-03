@@ -1,0 +1,148 @@
+\chapter{Bears are the TRUE Bosses of Elden Ring}
+
+\newcommand\IIISiofraEnv{4}
+\newcommand\IIISiofraMobs{11}
+\newcommand\IIISiofraStag{1}
+\newcommand\IIISiofra{
+    \the\numexpr
+    \IIISiofraEnv
+    + \IIISiofraMobs
+    + \IIISiofraStag
+    \relax
+}
+
+\newcommand\IIICaelidMobs{19}
+\newcommand\IIICaelid{
+    \the\numexpr
+    \IIICaelidMobs
+    \relax
+}
+
+\newcommand\IIIMorneMobs{1}
+\newcommand\IIIMorneEnv{1}
+\newcommand\IIIMorne{
+    \the\numexpr
+    \IIIMorneMobs
+    + \IIIMorneEnv
+    \relax
+}
+
+\newcommand\IIIEnvDeaths{
+    \the\numexpr
+    \IIISiofraEnv
+    + \IIIMorneEnv
+    \relax
+}
+\newcommand\IIIMobDeaths{
+    \the\numexpr
+    \IIISiofraMobs
+    + \IIICaelidMobs
+    + \IIIMorneMobs
+    \relax
+}
+\newcommand\IIIBossDeaths{
+    \the\numexpr
+    \IIISiofraStag
+    \relax
+}
+\newcommand\IIIDeaths{
+    \the\numexpr
+    \IIIEnvDeaths +
+    \IIIMobDeaths +
+    \IIIBossDeaths
+    \relax
+}
+
+\begin{longtable}[c]{R{2.4cm} C{3.0cm} C{3.8cm} c C{2.0cm} p{2.4cm}}
+    \multicolumn{6}{l}{
+        \begin{tabular}{l}
+            \href{https://youtu.be/4eepV-CQVJI}{Youtube link}
+        \end{tabular}
+    } \\
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \\
+    \midrule 
+    \endfirsthead
+    
+    \toprule
+    & \bfseries Area & \bfseries Cause & \bfseries Count & \bfseries Timestamp & \\
+    \midrule 
+    \endhead
+
+    \nobtrulebreaks
+
+    & \multirow{\IIISiofra}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Siofra\\
+            \bfseries River
+        \end{tabular}
+    } & \multirow{\IIISiofraEnv}{*}{ Environment } & \multirow{\IIISiofraEnv}{*}{ \IIISiofraEnv } & 00:05:51 & \\
+    & & & & 00:15:14 & \\
+    & & & & 01:35:00 & \\
+    & & & & 01:36:46 & \\
+
+    & & \multirow{\IIISiofraMobs}{*}{ Monsters } & \multirow{\IIISiofraMobs}{*}{ \IIISiofraMobs } & 00:25:41 & \\
+    & & & & 00:42:26 & \\
+    & & & & 00:52:12 & \\
+    & & & & 00:53:52 & \\
+    & & & & 00:56:06 & \\
+    & & & & 00:59:47 & \\
+    & & & & 01:03:41 & \\
+    & & & & 01:07:08 & \\
+    & & & & 01:09:32 & \\
+    & & & & 01:21:21 & \\
+    & & & & 01:22:21 & \\
+
+    & & \multirow{\IIISiofraStag}{*}{ \small Ancestor Spirit } & \multirow{\IIISiofraStag}{*}{ \IIISiofraStag } & 01:44:21 & \\
+
+    \allowbtrulebreaks
+    \cmidrule(lr){1-6}
+    \nobtrulebreaks
+
+    & \multirow{\IIICaelid}{*}{ \bfseries Caelid } & \multirow{\IIICaelidMobs}{*}{ Monsters } & \multirow{\IIICaelidMobs}{*}{ \IIICaelidMobs } & 02:19:00 & \\
+    & & & & 02:20:19 & \\
+    & & & & 02:21:30 & \\
+    & & & & 02:25:48 & \\
+    & & & & 02:27:38 & \\
+    & & & & 02:29:06 & \\
+    & & & & 02:31:19 & \\
+    & & & & 02:33:48 & \\
+    & & & & 02:36:47 & \\
+    & & & & 02:41:10 & \\
+    & & & & 02:45:36 & \\
+    & & & & 02:52:02 & \\
+    & & & & 02:55:15 & \\
+    & & & & 03:11:10 & \\
+    & & & & 03:16:44 & \\
+    & & & & 03:18:03 & \\
+    & & & & 03:19:18 & \\
+    & & & & 03:23:44 & \\
+    & & & & 03:26:04 & \\
+
+    \allowbtrulebreaks
+    \cmidrule(lr){1-6}
+    \nobtrulebreaks
+
+    & \multirow{\IIIMorne}{*}{ 
+        \begin{tabular}{c}
+            \bfseries Castle\\
+            \bfseries Morne
+        \end{tabular}
+    } & \multirow{\IIIMorneMobs}{*}{ Monsters } & \multirow{\IIIMorneMobs}{*}{ \IIIMorneMobs } & 03:36:04 & \\
+
+    & & \multirow{\IIIMorneEnv}{*}{ Environment } & \multirow{\IIIMorneEnv}{*}{ \IIIMorneEnv } & 03:36:26 & \\
+
+    \allowbtrulebreaks
+    \midrule
+    \nobtrulebreaks
+
+    \bfseries Environment & & & \IIIEnvDeaths & & \\
+    \bfseries Monsters & & & \IIIMobDeaths & & \\
+    \bfseries Bosses & & & \IIIBossDeaths & & \\
+    \bfseries Total & & & \IIIDeaths & 03:37:02 & \\
+    
+    \bottomrule
+    \allowbtrulebreaks
+\end{longtable}
+

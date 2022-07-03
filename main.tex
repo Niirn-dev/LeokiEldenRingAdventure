@@ -1,4 +1,4 @@
-\documentclass[fleqn, a4paper, english]{extarticle}
+\documentclass[fleqn, a4paper, english]{report}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1, T2A]{fontenc}
@@ -11,11 +11,16 @@
 
 \usepackage{longtable}
 \usepackage{booktabs}
-\input{longtableBooktabsFix.tex}
+    \input{longtableBooktabsFix.tex}
+    \renewcommand\cmidrulekern{4em}
 
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{multicol}
+
+\usepackage{titlesec}
+    \titleformat{name=\chapter}[display]{\filright\bfseries}{\huge\chaptername~\thechapter}{7pt}{\Huge}
+    \titlespacing*{\chapter}{0pt}{-21pt}{21pt}
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -24,7 +29,13 @@
 \usepackage{floatrow}
 \floatsetup[longtable]{LTcapwidth=contents}
 
+\title{\bfseries The Adventures of Leoki Ounce in the Lands Between}
+\author{by Niirn}
+\date{\today}
+
 \begin{document}
+    \maketitle
+
     \include{introduction.tex}
     \include{dataTables.tex}
 \end{document}
